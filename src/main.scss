@@ -1,0 +1,27 @@
+html, body {
+  background: green;
+}
+
+header {
+    padding: 20px;
+    h1 {
+      font-size: 24px;
+      box-shadow: 0 0 0 rgba(0,0,0,0.9);
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          span {
+            color: red;
+          }
+        }
+      }
+    }
+    img {
+      border: none;
+      &.glow {
+        border: solid 1px #f00;
+      }
+    }
+  }
+  
